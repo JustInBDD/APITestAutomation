@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "null"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "user_id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "user_id",
+        "title",
+        "body"
+      ]
+    }
+  },
+  "required": [
+    "meta",
+    "data"
+  ]
+}

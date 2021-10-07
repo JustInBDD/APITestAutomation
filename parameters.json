@@ -1,0 +1,9 @@
+{
+  "environment": {
+      "max_response_time": "300",
+      "auth_user": "testenvuser",
+      "auth_password": "testenvpassword",
+      "auth_token": "0cb9756452fff1b2ad4024665f89942fddc2b2b0459d7a0b940925c6ac1ea857",
+      "base_uri" : "https://gorest.co.in"
+    }
+}

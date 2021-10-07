@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "null"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "gender": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "name",
+        "status",
+        "id",
+        "gender"
+      ]
+    }
+  },
+  "required": [
+    "meta",
+    "data"
+  ]
+}

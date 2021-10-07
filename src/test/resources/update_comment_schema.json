@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "null"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "post_id": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "email",
+        "body",
+        "post_id",
+        "id"
+      ]
+    }
+  },
+  "required": [
+    "meta",
+    "data"
+  ]
+}
